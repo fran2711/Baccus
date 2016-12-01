@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10116" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="FJLWineViewController">
+            <connections>
+                <outlet property="grapesLabel" destination="nKe-eE-FIe" id="829-dn-kuM"/>
+                <outlet property="grapesLabelPortrait" destination="LPM-Jd-7YM" id="29a-yn-u6x"/>
+                <outlet property="nameLabel" destination="6dq-2D-l6G" id="40A-pl-CGB"/>
+                <outlet property="nameLabelPortrait" destination="WI1-ho-68B" id="ulg-LN-0Yz"/>
+                <outlet property="notesView" destination="saO-5b-j0m" id="4pq-gp-pr9"/>
+                <outlet property="notesViewPortrait" destination="Rcy-h3-7lB" id="Us0-z1-nfu"/>
+                <outlet property="originLabel" destination="Eq0-1h-BuP" id="jHi-AJ-yvF"/>
+                <outlet property="originLabelPortrait" destination="dBw-f1-efZ" id="RbQ-Fe-XmH"/>
+                <outlet property="photoView" destination="rp2-fW-y9a" id="tLw-WJ-yU1"/>
+                <outlet property="photoViewPortrait" destination="J9F-74-cdE" id="4RJ-pA-jKp"/>
+                <outlet property="portraitView" destination="aty-qn-tI1" id="cX0-mL-7Ds"/>
+                <outlet property="typeLabel" destination="H9G-Ug-TC0" id="fbX-fl-69a"/>
+                <outlet property="typeLabelPortrait" destination="Jv4-Op-AYc" id="LRU-18-kkQ"/>
+                <outlet property="view" destination="iN0-l3-epB" id="NWC-ID-I5B"/>
+                <outlet property="webButton" destination="lJF-jp-e0u" id="vZW-YP-W1d"/>
+                <outlet property="wineryNameLabel" destination="2Sz-OG-gSf" id="wbj-nB-Fun"/>
+                <outlet property="wineryNameLabelPortrait" destination="Tcz-jj-x6K" id="4U9-CI-9S6"/>
+                <outletCollection property="ratingViews" destination="qUV-K7-FRg" id="7U0-9k-Llz"/>
+                <outletCollection property="ratingViews" destination="sOK-Zn-aEU" id="XDj-t7-Fxc"/>
+                <outletCollection property="ratingViews" destination="vPE-FZ-1nP" id="QUT-lE-RF1"/>
+                <outletCollection property="ratingViews" destination="SS4-0b-fj7" id="fLY-0v-B4l"/>
+                <outletCollection property="ratingViews" destination="ARa-bP-Wvx" id="21Q-VU-j6f"/>
+                <outletCollection property="ratingViewsPortrait" destination="Rfh-qZ-OxW" id="wQl-08-W5g"/>
+                <outletCollection property="ratingViewsPortrait" destination="YcS-j8-iLW" id="uDt-G4-bg2"/>
+                <outletCollection property="ratingViewsPortrait" destination="fNh-eY-gLg" id="MZi-JA-hFI"/>
+                <outletCollection property="ratingViewsPortrait" destination="fhI-zY-p1q" id="qop-hJ-XPv"/>
+                <outletCollection property="ratingViewsPortrait" destination="fBm-HW-iWS" id="JxL-BS-6CP"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="qvg-Ee-U1O">
+                    <rect key="frame" x="0.0" y="0.0" width="320" height="61"/>
+                    <color key="backgroundColor" red="0.62352941179999999" green="0.27058823529999998" blue="0.27058823529999998" alpha="1" colorSpace="calibratedRGB"/>
+                </imageView>
+                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" fixedFrame="YES" text="Name" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6dq-2D-l6G">
+                    <rect key="frame" x="124" y="0.0" width="184" height="61"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" fixedFrame="YES" text="Type" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="H9G-Ug-TC0">
+                    <rect key="frame" x="124" y="147" width="184" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" fixedFrame="YES" text="Origin" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Eq0-1h-BuP">
+                    <rect key="frame" x="124" y="184" width="184" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" fixedFrame="YES" text="Grapes" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nKe-eE-FIe">
+                    <rect key="frame" x="124" y="228" width="184" height="39"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" fixedFrame="YES" image="copa_cell.png" translatesAutoresizingMaskIntoConstraints="NO" id="qUV-K7-FRg">
+                    <rect key="frame" x="191" y="72" width="16" height="16"/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" fixedFrame="YES" image="copa_cell.png" translatesAutoresizingMaskIntoConstraints="NO" id="sOK-Zn-aEU">
+                    <rect key="frame" x="213" y="72" width="16" height="16"/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" fixedFrame="YES" image="copa_cell.png" translatesAutoresizingMaskIntoConstraints="NO" id="vPE-FZ-1nP">
+                    <rect key="frame" x="238" y="72" width="16" height="16"/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" fixedFrame="YES" image="copa_cell.png" translatesAutoresizingMaskIntoConstraints="NO" id="SS4-0b-fj7">
+                    <rect key="frame" x="263" y="72" width="16" height="16"/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" fixedFrame="YES" image="copa_cell.png" translatesAutoresizingMaskIntoConstraints="NO" id="ARa-bP-Wvx">
+                    <rect key="frame" x="288" y="72" width="16" height="16"/>
+                </imageView>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lJF-jp-e0u">
+                    <rect key="frame" x="124" y="69" width="60" height="21"/>
+                    <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                    <state key="normal" image="www.png">
+                        <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <state key="highlighted">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="displayWebpage:" destination="-1" eventType="touchUpInside" id="e7g-vv-wrH"/>
+                    </connections>
+                </button>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" fixedFrame="YES" image="fileteUva.png" translatesAutoresizingMaskIntoConstraints="NO" id="3Ke-Et-R4u">
+                    <rect key="frame" x="124" y="212" width="178" height="8"/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" fixedFrame="YES" image="fileteDenominacion.png" translatesAutoresizingMaskIntoConstraints="NO" id="Eae-GQ-vtM">
+                    <rect key="frame" x="124" y="175" width="178" height="8"/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" fixedFrame="YES" image="fileteTipo.png" translatesAutoresizingMaskIntoConstraints="NO" id="MpN-w6-S2X">
+                    <rect key="frame" x="124" y="138" width="178" height="8"/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" fixedFrame="YES" image="fileteBodega.png" translatesAutoresizingMaskIntoConstraints="NO" id="dIV-As-bqN">
+                    <rect key="frame" x="124" y="101" width="178" height="8"/>
+                </imageView>
+                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" fixedFrame="YES" text="Winery" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2Sz-OG-gSf">
+                    <rect key="frame" x="124" y="109" width="184" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="rp2-fW-y9a">
+                    <rect key="frame" x="11" y="70" width="105" height="197"/>
+                </imageView>
+                <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="saO-5b-j0m">
+                    <rect key="frame" x="20" y="275" width="280" height="273"/>
+                    <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                </textView>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <point key="canvasLocation" x="219" y="814"/>
+        </view>
+        <view contentMode="scaleToFill" id="aty-qn-tI1" userLabel="PortraitView">
+            <rect key="frame" x="0.0" y="0.0" width="568" height="320"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="JBH-wP-cmJ">
+                    <rect key="frame" x="0.0" y="0.0" width="568" height="61"/>
+                    <color key="backgroundColor" red="0.62352941179999999" green="0.27058823529999998" blue="0.27058823529999998" alpha="1" colorSpace="calibratedRGB"/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" fixedFrame="YES" image="copa_cell.png" translatesAutoresizingMaskIntoConstraints="NO" id="Rfh-qZ-OxW">
+                    <rect key="frame" x="443" y="70" width="16" height="16"/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" fixedFrame="YES" image="copa_cell.png" translatesAutoresizingMaskIntoConstraints="NO" id="YcS-j8-iLW">
+                    <rect key="frame" x="467" y="70" width="16" height="16"/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" fixedFrame="YES" image="copa_cell.png" translatesAutoresizingMaskIntoConstraints="NO" id="fNh-eY-gLg">
+                    <rect key="frame" x="491" y="70" width="16" height="16"/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" fixedFrame="YES" image="copa_cell.png" translatesAutoresizingMaskIntoConstraints="NO" id="fhI-zY-p1q">
+                    <rect key="frame" x="515" y="70" width="16" height="16"/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" fixedFrame="YES" image="copa_cell.png" translatesAutoresizingMaskIntoConstraints="NO" id="fBm-HW-iWS">
+                    <rect key="frame" x="539" y="70" width="16" height="16"/>
+                </imageView>
+                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" fixedFrame="YES" text="Type" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Jv4-Op-AYc">
+                    <rect key="frame" x="292" y="86" width="184" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" fixedFrame="YES" text="Name" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WI1-ho-68B">
+                    <rect key="frame" x="152" y="0.0" width="416" height="61"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" fixedFrame="YES" image="fileteBodegaLandscape.png" translatesAutoresizingMaskIntoConstraints="NO" id="VQF-54-suY">
+                    <rect key="frame" x="152" y="77" width="107" height="8"/>
+                </imageView>
+                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" fixedFrame="YES" text="Grapes" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LPM-Jd-7YM">
+                    <rect key="frame" x="292" y="128" width="263" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" fixedFrame="YES" image="fileteTipoLandscape.png" translatesAutoresizingMaskIntoConstraints="NO" id="aXm-63-qcW">
+                    <rect key="frame" x="292" y="77" width="107" height="8"/>
+                </imageView>
+                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" fixedFrame="YES" text="Origin" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dBw-f1-efZ">
+                    <rect key="frame" x="152" y="128" width="132" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" fixedFrame="YES" image="fileteOrigenLandscape.png" translatesAutoresizingMaskIntoConstraints="NO" id="TWP-6G-HCs">
+                    <rect key="frame" x="152" y="117" width="107" height="8"/>
+                </imageView>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dfP-s8-j6t">
+                    <rect key="frame" x="52" y="286" width="60" height="21"/>
+                    <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                    <state key="normal" image="www.png">
+                        <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <state key="highlighted">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="displayWebpage:" destination="-1" eventType="touchUpInside" id="r7u-yO-7RW"/>
+                    </connections>
+                </button>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" fixedFrame="YES" image="fileteUvaPortrait.png" translatesAutoresizingMaskIntoConstraints="NO" id="vX4-A6-pQe">
+                    <rect key="frame" x="292" y="116" width="107" height="8"/>
+                </imageView>
+                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" fixedFrame="YES" text="Winery" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Tcz-jj-x6K">
+                    <rect key="frame" x="152" y="86" width="132" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="J9F-74-cdE">
+                    <rect key="frame" x="20" y="70" width="124" height="196"/>
+                </imageView>
+                <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Rcy-h3-7lB">
+                    <rect key="frame" x="152" y="155" width="396" height="152"/>
+                    <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                </textView>
+            </subviews>
+            <color key="backgroundColor" red="0.92549019610000005" green="0.92549019610000005" blue="0.83921568629999999" alpha="1" colorSpace="calibratedRGB"/>
+            <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" prompted="NO"/>
+            <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="copa_cell.png" width="16" height="16"/>
+        <image name="fileteBodega.png" width="178" height="8"/>
+        <image name="fileteBodegaLandscape.png" width="107" height="8"/>
+        <image name="fileteDenominacion.png" width="178" height="9"/>
+        <image name="fileteOrigenLandscape.png" width="107" height="9"/>
+        <image name="fileteTipo.png" width="178" height="8"/>
+        <image name="fileteTipoLandscape.png" width="108" height="8"/>
+        <image name="fileteUva.png" width="178" height="8"/>
+        <image name="fileteUvaPortrait.png" width="107" height="8"/>
+        <image name="www.png" width="60" height="21"/>
+    </resources>
+</document>

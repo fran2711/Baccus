@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.iPad.XIB" version="3.0" toolsVersion="10117" systemVersion="15F34" targetRuntime="iOS.CocoaTouch.iPad" propertyAccessControl="none" useAutolayout="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="FJLWineViewController">
+            <connections>
+                <outlet property="grapesLabel" destination="Vz1-Gu-Yhc" id="0en-Gv-fy6"/>
+                <outlet property="nameLabel" destination="ShD-rB-Xn2" id="HWK-dJ-FdB"/>
+                <outlet property="notesView" destination="TcX-rE-L2j" id="alT-Sj-715"/>
+                <outlet property="originLabel" destination="Dr6-8b-Otb" id="EWb-Mu-k23"/>
+                <outlet property="photoView" destination="n18-vy-wzY" id="7Ip-8D-KcW"/>
+                <outlet property="typeLabel" destination="irM-xS-GsA" id="lnr-LF-bCS"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="vh6-7v-W0t"/>
+                <outlet property="webButton" destination="Hu7-LD-oIy" id="W7F-QL-51I"/>
+                <outlet property="wineryNameLabel" destination="jnR-Y6-ICc" id="TwE-fH-FBp"/>
+                <outletCollection property="ratingViews" destination="cfW-sH-g7K" id="yE2-4J-nPm"/>
+                <outletCollection property="ratingViews" destination="NgE-QB-u2F" id="wgh-ee-6WH"/>
+                <outletCollection property="ratingViews" destination="4mL-cj-yqe" id="Dqx-Pd-ppc"/>
+                <outletCollection property="ratingViews" destination="enc-z9-WDw" id="Kls-gD-p5q"/>
+                <outletCollection property="ratingViews" destination="giM-QD-0zN" id="mO2-AJ-cUC"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="uYF-sA-Y7M">
+                    <rect key="frame" x="-8" y="0.0" width="768" height="61"/>
+                    <color key="backgroundColor" red="0.62352941179999999" green="0.27058823529999998" blue="0.27058823529999998" alpha="1" colorSpace="calibratedRGB"/>
+                </imageView>
+                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" fixedFrame="YES" text="Name" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ShD-rB-Xn2">
+                    <rect key="frame" x="378" y="0.0" width="366" height="59"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" fixedFrame="YES" text="Type" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="irM-xS-GsA">
+                    <rect key="frame" x="396" y="251" width="314" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" fixedFrame="YES" text="Winery" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jnR-Y6-ICc">
+                    <rect key="frame" x="396" y="159" width="314" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" fixedFrame="YES" text="Origin" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Dr6-8b-Otb">
+                    <rect key="frame" x="396" y="344" width="348" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" fixedFrame="YES" text="Grapes" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Vz1-Gu-Yhc">
+                    <rect key="frame" x="396" y="446" width="314" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="Hu7-LD-oIy">
+                    <rect key="frame" x="397" y="82" width="60" height="21"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                    <state key="normal" image="www.png">
+                        <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <state key="highlighted">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="displayWebpage:" destination="-1" eventType="touchUpInside" id="30"/>
+                    </connections>
+                </button>
+                <imageView userInteractionEnabled="NO" contentMode="bottomLeft" fixedFrame="YES" image="copa_cell.png" translatesAutoresizingMaskIntoConstraints="NO" id="cfW-sH-g7K">
+                    <rect key="frame" x="479" y="85" width="16" height="16"/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="bottomLeft" fixedFrame="YES" image="copa_cell.png" translatesAutoresizingMaskIntoConstraints="NO" id="NgE-QB-u2F">
+                    <rect key="frame" x="505" y="85" width="16" height="16"/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="bottomLeft" fixedFrame="YES" image="copa_cell.png" translatesAutoresizingMaskIntoConstraints="NO" id="4mL-cj-yqe">
+                    <rect key="frame" x="531" y="85" width="16" height="16"/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="bottomLeft" fixedFrame="YES" image="copa_cell.png" translatesAutoresizingMaskIntoConstraints="NO" id="enc-z9-WDw">
+                    <rect key="frame" x="557" y="85" width="16" height="16"/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="bottomLeft" fixedFrame="YES" image="copa_cell.png" translatesAutoresizingMaskIntoConstraints="NO" id="giM-QD-0zN">
+                    <rect key="frame" x="583" y="85" width="16" height="16"/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" fixedFrame="YES" image="fileteBodega.png" translatesAutoresizingMaskIntoConstraints="NO" id="wY3-z0-He5">
+                    <rect key="frame" x="398" y="147" width="178" height="8"/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" fixedFrame="YES" image="fileteTipo.png" translatesAutoresizingMaskIntoConstraints="NO" id="kG5-oW-zhP">
+                    <rect key="frame" x="398" y="235" width="178" height="8"/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" fixedFrame="YES" image="fileteDenominacion.png" translatesAutoresizingMaskIntoConstraints="NO" id="5Ht-jP-wpE">
+                    <rect key="frame" x="396" y="328" width="178" height="8"/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" fixedFrame="YES" image="fileteUva.png" translatesAutoresizingMaskIntoConstraints="NO" id="tub-8N-5pz">
+                    <rect key="frame" x="396" y="430" width="178" height="8"/>
+                </imageView>
+                <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" showsHorizontalScrollIndicator="NO" editable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TcX-rE-L2j">
+                    <rect key="frame" x="0.0" y="561" width="768" height="463"/>
+                    <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                    <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                    <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                </textView>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="n18-vy-wzY">
+                    <rect key="frame" x="13" y="71" width="358" height="482"/>
+                </imageView>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <point key="canvasLocation" x="428" y="405"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="copa_cell.png" width="16" height="16"/>
+        <image name="fileteBodega.png" width="178" height="8"/>
+        <image name="fileteDenominacion.png" width="178" height="9"/>
+        <image name="fileteTipo.png" width="178" height="8"/>
+        <image name="fileteUva.png" width="178" height="8"/>
+        <image name="www.png" width="60" height="21"/>
+    </resources>
+</document>
